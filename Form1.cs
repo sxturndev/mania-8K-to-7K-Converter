@@ -49,7 +49,7 @@ namespace osu_8K_to_7K_Converter
 
         private void githubLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/sxturndev/mania-8k-to-7k/");
+            System.Diagnostics.Process.Start("https://github.com/sxturndev/mania-8K-to-7K-Converter/");
         }
     }
 }

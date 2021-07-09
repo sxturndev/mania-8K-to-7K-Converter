@@ -29,6 +29,7 @@ namespace osu_8K_to_7K_Converter
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox = new System.Windows.Forms.TextBox();
             this.browseButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -111,6 +112,7 @@ namespace osu_8K_to_7K_Converter
             this.Controls.Add(this.label1);
             this.Controls.Add(this.browseButton);
             this.Controls.Add(this.textBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "osu! 8K to 7K Converter (by sxturn_bms)";
             this.ResumeLayout(false);
