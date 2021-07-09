@@ -13,7 +13,9 @@ Download the executable [here](https://github.com/sxturndev/mania-8K-to-7K-Conve
 - You can specify if you want to convert keysounds to storyboard.
 
 ## Contact & Issues
-This is my first program, so if you have any issues or suggestions (criticism is appreciated), please open a ticket or contact me via Discord: sx#8778
+This is my first program, so you may run into issues.
+
+If you have any issues or suggestions (criticism is appreciated), please open a ticket or contact me via Discord: sx#8778
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
