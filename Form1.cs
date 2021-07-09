@@ -12,7 +12,7 @@ namespace osu_8K_to_7K_Converter
         {
             InitializeComponent();
             openfd.FileName = "";
-            //openfd.Filter = ".osu files|*.osu";
+            openfd.Filter = ".osu files|*.osu";
             openfd.Multiselect = true;
             textBox.Text = string.Empty;
         }
