@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace osu_8K_to_7K_Converter
@@ -11,7 +12,7 @@ namespace osu_8K_to_7K_Converter
         {
             InitializeComponent();
             openfd.FileName = "";
-            openfd.Filter = ".osu files|*.osu";
+            //openfd.Filter = ".osu files|*.osu";
             openfd.Multiselect = true;
             textBox.Text = string.Empty;
         }
@@ -41,7 +42,14 @@ namespace osu_8K_to_7K_Converter
 
             foreach (string file in filePaths)
             {
-                Converter.Convert(file);
+                if (Path.GetExtension(file) != ".osu")
+                {
+                    MessageBox.Show($"Can't convert: {file}");
+                }
+                else
+                {
+                    Converter.Convert(file);
+                }
             }
 
             MessageBox.Show("Done!");
