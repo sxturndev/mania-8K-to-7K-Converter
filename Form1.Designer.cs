@@ -98,7 +98,7 @@ namespace osu_8K_to_7K_Converter
             this.githubLink.Size = new System.Drawing.Size(68, 13);
             this.githubLink.TabIndex = 5;
             this.githubLink.TabStop = true;
-            this.githubLink.Text = "Github (v1.0)";
+            this.githubLink.Text = "Github (v1.01)";
             this.githubLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.githubLink_LinkClicked);
             // 
             // Form1
