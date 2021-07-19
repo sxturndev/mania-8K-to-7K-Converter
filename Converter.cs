@@ -133,7 +133,8 @@ namespace osu_8K_to_7K_Converter
                     Double.TryParse(note[0], out double xval);
 
                     // floor(x * columnNumber / 512)
-                    double columnIndex = Math.Floor(xval * 8 / 512);
+                    int columnIndex = (int)Math.Floor(xval * 8 / 512);
+                    string[] newColumn = {"36", "109", "182", "256", "329", "402", "475"};
                     if (columnIndex == 0) // Remove scratch note.
                     {
                         chart.notes.RemoveAt(i);
@@ -141,8 +142,7 @@ namespace osu_8K_to_7K_Converter
                     }
                     else if (columnIndex >= 1 && columnIndex <= 7)
                     {
-                        double newColumn = Math.Ceiling((columnIndex - 1) * 512 / 7);
-                        note[0] = System.Convert.ToString(newColumn);
+                        note[0] = newColumn[columnIndex-1];
                         chart.notes[i] = string.Join(",", note);
                     }
                 }
