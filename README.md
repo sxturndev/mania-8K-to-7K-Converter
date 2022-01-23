@@ -15,7 +15,7 @@ Download the executable [here](https://github.com/sxturndev/mania-8K-to-7K-Conve
 ## Contact & Issues
 This is my first program, so you may run into issues.
 
-If you have any issues or suggestions (criticism is appreciated), please open a ticket or contact me via Discord: sadistik#8778
+If you have any issues or suggestions (criticism is appreciated), please open a ticket or join my [Discord Server](https://discord.gg/9ckmwRTtBh)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
